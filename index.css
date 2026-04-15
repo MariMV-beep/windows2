@@ -3,8 +3,15 @@ display: flex;
 justify-content: center;
 background-color: white;
 color: rgb(14, 14, 59);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
+    font-family:Arial, Helvetica, sans-serif;
     background: #ffffff;
+    justify-content: center;
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(207, 225, 233) 100%);
+}
+#titulo_2{
+    color: rgb(57, 57, 119);
+    padding: 1vw 0 0 33vw;
 }
