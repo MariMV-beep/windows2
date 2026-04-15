@@ -8,10 +8,33 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 body{
     font-family:Arial, Helvetica, sans-serif;
     background: #ffffff;
+    margin: 10px auto;
+    width: 900px;
     justify-content: center;
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(207, 225, 233) 100%);
 }
 #titulo_2{
     color: rgb(57, 57, 119);
-    padding: 1vw 0 0 33vw;
+    padding-left: 10vw;
+}
+#main{
+    display: flex;
+    gap: 25px;
+}
+#main2{
+    margin-left: 150px;
+}
+.container{
+ margin: 25px 25px 25px 25px;
+ padding: 15px;
+ border-radius: 35px;
+ background-color: rgba(127, 150, 255, 0.438);
+}
+.subtitulos{
+    color: #3f3192;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textos{
+    color: #050505;
+    font-family:Arial, Helvetica, sans-serif ;
 }
