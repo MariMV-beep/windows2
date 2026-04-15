@@ -1,3 +1,9 @@
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header{
 display: flex;
 justify-content: center;
@@ -15,7 +21,10 @@ body{
 }
 #titulo_2{
     color: rgb(57, 57, 119);
-    padding-left: 10vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 25px;
 }
 #comp{
     padding-left: 355px;
@@ -26,16 +35,21 @@ body{
     gap: 25px;
 }
 #main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 150px;
+    margin-right: 130px;
 }
 .container{
  margin: 25px 25px 25px 25px;
  padding: 15px;
  border-radius: 35px;
- background-color: rgba(127, 150, 255, 0.438);
+ background-color: rgb(231, 248, 250);
+ border: 5px solid rgba(157, 216, 255, 0.438);
 }
 .subtitulos{
-    color: #3f3192;
+    color: #316692;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .textos{
